@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyStock Login</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <h1>EasySt<span>ock</span></h1>
+        </div>
+
+        <div class="login-card">
+            <p class="welcomes">
+                Olá, seja bem-vindo(a) ao EasyStock! Para usar nossos serviços faça seu login!
+            </p>
+
+            <form id="loginForms">
+                <div class="input-group">
+                    <label>Email</label>
+                    <div class="input-box">
+                        <input type="email" placeholder="exemplo@email.com" required>
+                        <span class="icon">👤</span>
+
+                        <div class="input-group">
+                            <label>Senha</label>
+                            <div class="input-box">
+                                <input type="password" id="password" placeholder="********" required>
+                                <span class="icon toggle" onclick="togglePassword()">👁️</span>
+                            </div>
+                        </div>
+                        <button type="submit">ENTRAR</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

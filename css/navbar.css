@@ -6,9 +6,8 @@
     margin-left: 25px;
 }
 
-
 nav{
-    background: 032620;
+    background: #032620;
     background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(11, 140, 118, 1) 100%);
     width: 15%;
     height: 1000px;
@@ -21,32 +20,50 @@ nav{
 
 ul{
     margin: 15px;
-    display:block;
-    align-items: f;
+    padding: 0;
     
 }
 
 
 ul li {
-
-    
     color: #fff;
-    margin: 25px;
-    padding: 0;
+    margin: 15px 0px;
+    padding: 10px 15px;
     list-style: none;
-    text-decoration: none;
     
     gap: 10px;
     display: flex;
     align-items: center;
+
+    border-radius: 25px;
+    transition: 0.3s;
 }
 
+ul li:hover {
+    background: rgba(255,255,255,0.1);
+    cursor:pointer
+}
+
+ul li.ativo {
+    position: relative;
+    background: rgba(255, 255, 255, 0.185);
+    backdrop-filter: blur(20px);
+    padding-right: 450px;
+
+    border: 1ps solid red;
+}
+
+
+
 ul li a{
-    font-size: 22px;
-    padding:0;
-    margin:0;
+    font-size: 20px;
     font-family: "Farro", sans-serif;
     font-weight: 400;
+
+    color: white;
+    text-decoration: none;
+
+    width: 100%;
     
 }
 
@@ -56,20 +73,3 @@ ul li img{
     margin: 0;
     
 }
-
-
-.selecionado{
-    position: relative;
-    background: rgba(255, 255, 255, 0.233);
-    backdrop-filter: blur(20px);
-    border-radius: 25px;
-    
-}
-
-.selecionado a, .selecionado img{
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-
-

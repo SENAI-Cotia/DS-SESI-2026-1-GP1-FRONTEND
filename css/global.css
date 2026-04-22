@@ -1,0 +1,43 @@
+
+@import url(login.css);
+@import url(produtos.css);
+@import url(navbar.css);
+@import url(cadastroADM.css);
+@import url(cadastroProduto.css);
+@import url(home.css);
+@import url(estoque.css);
+@import url(historico.css);
+@import url(perfil.css);
+@import url(retirada.css);
+
+
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: "Farro", sans-serif;
+}
+
+
+
+
+:root{
+    /* tons de verde */
+    --verde1: #0B8C76;
+    --verde2: #032620;
+
+    --efeitoGlass {
+        background-color: rgba(255, 255, 255, 0.1);
+        border-radius: 25%;
+        border-top: 1px solid rgba(255, 255, 255, 0.52) ;
+        border-left: 1px solid rgba(255, 255, 255, 0.52) ;
+    }
+
+    /* Cores de texto */
+
+    --titulo : #012F2C;
+
+}

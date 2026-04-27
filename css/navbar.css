@@ -10,7 +10,7 @@ nav{
     background: #032620;
     background: linear-gradient(0deg,rgba(0, 0, 0, 1) 0%, rgba(11, 140, 118, 1) 100%);
     width: 15%;
-    height: 1000px;
+    height: 1500px;
     margin-right: 90%;
     border-top-right-radius: 25px ;
     border-bottom-right-radius: 25px;
@@ -48,7 +48,9 @@ ul li.ativo {
     position: relative;
     background: rgba(255, 255, 255, 0.185);
     backdrop-filter: blur(20px);
-    padding-right: 450px;
+    
+    padding-bottom: 15px;
+    padding-top: 15px;
 
     border: 1ps solid red;
 }

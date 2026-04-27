@@ -1,0 +1,29 @@
+.navPerfil{
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+
+    position: absolute;
+    top:5%;
+    left:78%
+}
+
+.navPerfil a img{
+    width: 95%;
+}
+
+img{
+    width: 45%;
+}
+
+hr{
+    position: absolute;
+    top:9%;
+    left:78%;
+
+    background-color: rgb(112, 112, 112);
+    width: 19%;
+    height: 0.1%;
+}

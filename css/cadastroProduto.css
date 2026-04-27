@@ -1,0 +1,115 @@
+.container-cadastro{
+    position: absolute;
+    left: 44%;
+    top: 16%;
+
+    text-align: center;
+}
+
+.container-cadastro img{
+    position: absolute;
+    width: 2%;
+    left: -27%;
+    top: 2%;
+}
+
+.cadastro-title h1{
+    font-size: 40px;
+    color: var(--verde2);
+}
+.cadastro-title img{
+    width: 75%;
+}
+
+
+.linha-cadastro{
+    margin-top: 25px;
+    display: flex;
+    
+    justify-content: space-between;
+    gap: 35px;
+}
+
+
+.linha-cadastro div{
+    text-align: start;
+}
+
+.linha-cadastro div label{
+    color: #717171;
+    margin-left: 10px;
+}
+
+.linha-cadastro div input{
+    border: 0.5px solid rgba(0, 0, 0, 0.28);
+    border-radius: 11px;
+    height: 25px;
+    width: 300px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    font-family: "Farro", sans-serif;
+    
+}
+
+
+.linha-cadastro div input:focus{
+    outline: none;
+}
+
+.linha-cadastro .estoque-cadastro input{
+    height: 25px;
+    width: 140px;
+}
+
+
+.linha-cadastro-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+}
+
+.linha-cadastro-2 label {
+    width: 315px;
+    height: 120px;
+    border: 0.5px solid rgba(0,0,0,0.3);
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.linha-cadastro-2 input{
+    display: none;
+}
+
+.linha-cadastro-2 label img{
+    width: 40px; /* ajusta o tamanho */
+    height: auto;
+    width: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.campo-img p{
+    color: #717171;
+    margin-left: 20px;
+}
+
+#descricao{
+    border: 0.5px solid rgba(0, 0, 0, 0.28);
+    border-radius: 11px;
+    height: 115px;
+    width: 300px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    font-family: "Farro", sans-serif;
+}

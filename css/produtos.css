@@ -70,6 +70,14 @@
     gap: 9px;
 }
 
+.add-produtos:hover{
+    background-color: #0f6d5d;
+}
+
+.add-produtos:active{
+    background-color:#0d5c4f;
+}
+
 .title button a img{
     width: 15%;
 

@@ -1,6 +1,6 @@
 .container-cadastro{
     position: absolute;
-    left: 44%;
+    left: 38%;
     top: 16%;
 
     text-align: center;
@@ -106,10 +106,25 @@
 #descricao{
     border: 0.5px solid rgba(0, 0, 0, 0.28);
     border-radius: 11px;
-    height: 115px;
+    height: 105px;
     width: 300px;
     padding-left: 15px;
+    padding-top: 15px;
     margin-bottom: 15px;
 
     font-family: "Farro", sans-serif;
 }
+
+
+#descricao:focus{
+    outline: none;
+}
+
+.btn-add-produto button{
+    background-color: var(--verde1);
+    border: none;
+    padding:15px;
+    border-radius: 25px;
+    color: #fff;
+}
+

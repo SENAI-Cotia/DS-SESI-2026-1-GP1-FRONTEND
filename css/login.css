@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Arial, sans-serif;
 }
 
-body {
+.body-login {
   height: 100vh;
   background: radial-gradient(circle at center, #1b7c6d, #0b3f36 90%);
   display: flex;
@@ -15,12 +15,12 @@ body {
 
 /* Logo */
 
-.logo {
+.logo-login {
   display: flex;
   align-items: center;
 }
 
-.logo img{
+.logo-login img{
     width:98%;
     margin: 0 auto;
     display: block;
@@ -28,13 +28,13 @@ body {
     transform: translateY(-18px);
 }
 
-.logo h1 {
+.logo-login h1 {
   color: white;
   font-size: 48px;
   margin-bottom: 25px;
 }
 
-.logo span {
+.logo-login span {
     font-weight: 300;
 }
 
@@ -127,7 +127,7 @@ body {
 
 /* BOTÃO */
 
-button {
+.btn-entrar {
   display: block;
   margin: 20px auto 0;
   padding: 8px 30px;
@@ -142,7 +142,7 @@ button {
   transform: translateY(6px);
 }
 
-button:hover {
+.btn-entrar:hover {
   background: white;
   transform: scale(1.02);
 }

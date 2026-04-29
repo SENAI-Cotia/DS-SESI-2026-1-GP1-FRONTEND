@@ -1,67 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="/assets/icons/Vector 2.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Produtos</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/perfil.css">
+    <link rel="stylesheet" href="../css/navbar.css">
 </head>
 <body>
-    <nav>
+
+    
+
+    <img src="../assets/images/fundo.png" class="fundo">
+
+        <nav>
         <!-- Logo -->
         <img class="logo"    src="/assets/icons/logo.svg" alt="Logo EasyStock">
         <!-- barra de opções -->
 
         
         <ul>
-            <li>
+            <li class="ativo">
                 <img src="/assets/icons/akar-icons_dashboard.svg" alt="dashboard">
-                <a href="home.html">Dashboard</a>
+                <a href="../pages/home.html">Dashboard</a>
             </li >
             <li>
                 <img src="/assets/icons/produtos-icon.svg" alt="produtos">
-                <a href="produtos.html">Produtos</a>
+                <a href="../pages/produtos.html">Produtos</a>
             </li>
             <li>
                 <img src="/assets/icons/Estoque-icon.svg" alt="estoque">
-                <a href="estoque.html">Estoque</a>
+                <a href="../pages/estoque.html">Estoque</a>
             </li>
             <li>
                 <img src="/assets/icons/famicons_exit-outline (1).svg" alt="">
-                <a href="retirada.html">Retirada</a>
+                <a href="../pages/retirada.html">Retirada</a>
             </li>
             <li>
                 <img src="/assets/icons/Group (3).svg" alt="">
-                <a href="historico.html">Historico</a>
+                <a href="../pages/historico.html">Historico</a>
             </li>
         </ul>
-
-
     </nav>
-    <main> 
-    
-        <!-- Parte do  perfil   -->
-        <section >
-            <div class="navPerfil">
-                <a href="/pages/perfil.html">
-                    <img src="/assets/icons/Group.svg" alt="usuario">
-                </a>
 
-                <p>Ronaldo blá blá</p>
-                
+    <div class="perfil">
+        <img src="../assets/images/fotoPerfil.jpg" class="foto-perfil">
 
-                <div>
-                    <img src="/assets/icons/si_notifications-alt-2-line.svg" alt="">
-                    <img src="/assets/icons/famicons_exit-outline.svg" alt="">
-                </div>
-            </div>
+        <div class="msg-ola">
+        <p>Olá administrador <p class="msg-nome" >Ronaldo Luiz!</p>Seja Bem vindo!</p>
+        </div>
 
-            <hr>
-        </section>
-    </main>
+        <div class="btn-personalizar-foto">
+            <button class="btn-personalizar"><img src="../assets/icons/lapis-branco-icon.svg" alt=""></button>
+        </div>
+    </div>
+
+
+    <div class="dados-container">
+        <p class="dados-pessoais-title" >Seus dados pessoais</p>
+
+        <form action="" class="dados-pessoais"> 
+        <fieldset class="fieldset">
+        <h6 class="inputs-txt">Nome</h6>
+        <input class="input" type="text" id="nome">
+
+        <h6 class="inputs-txt">Email de cadastro</h6>
+        <input class="input" type="text" id="email">
+        </fieldset>
+
+        <div class="divisao"></div>
+
+        <fieldset class="fieldset">        
+          <h6 class="inputs-txt">Senha</h6>
+          <input class="input-2" type="text" id="senha">
+          <button><img src="../assets/icons/olho-senha.svg" alt="olho-senha"></button>
+        </fieldset> 
+    </form>
+
+        <div class="btn-personalizar-dados">
+            <button class="btn-personalizar-2"><img src="../assets/icons/lapis-branco-icon.svg" alt=""></button>
+        </div>
+    </div>
+
+
+    <div class="gerentes-container">
+        <p class="gerentes-title">Seus gerentes</p>
+        <ul>
+            <li> <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
+             Ana Previatto
+            <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
+            <img src="../assets/icons/lapis-icon.svg" alt="lapis-icon" class="icons-gerente-2">
+            </li>
+
+            <li> <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
+             Lavinia Bispo
+            <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
+            <img src="../assets/icons/lapis-icon.svg" alt="lapis-icon" class="icons-gerente-2">
+            </li>
+
+            <li> <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
+             Carolina Andrade
+            <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
+            <img src="../assets/icons/lapis-icon.svg" alt="lapis-icon" class="icons-gerente-2">
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="btn-container">
+        <button class="btn-adicionar">
+            <img src="../assets/icons/mais-icon.svg" alt="mais-icon" class="btn-icon-1">
+            <p>Adicionar gerentes</p>
+        </button>
+
+        <button class="btn-sair">
+            <img src="../assets/icons/sair-icon.svg" alt="" class="btn-icon-2">
+            <p>Sair da conta</p>
+        </button>
+    </div>
+
+
 </body>
 </html>

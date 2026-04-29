@@ -1,0 +1,285 @@
+
+.fundo {
+    position: absolute;
+    width: 85%;
+    left: 15%;
+}
+
+.foto-perfil {
+    position: absolute;
+    top: 10%;
+    left: 32%;
+
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.msg-ola {
+    position: absolute;
+    top: 14%;
+    left: 44.5%;
+
+    font-weight: bold;
+    font-size: 24px;
+
+    .msg-nome {
+        color: #115E59;
+
+    }
+}
+
+/*botão personalizar*/
+.btn-personalizar {
+    position: absolute;
+    top: 25%;
+    left: 39.5%;
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+
+    border: none;
+    background-color: #047a66;
+}
+
+.btn-personalizar img {
+    position: absolute;
+    top: 21%;
+    left: 22%;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
+
+.dados-container {
+    position: absolute;
+    top: 35%;
+    left: 32%;
+
+    width: 800px;
+    height: 260px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+    
+}
+
+.dados-pessoais {
+    display: flex;    
+}
+
+.fieldset {
+    border: none;
+}
+
+.dados-pessoais-title {
+    font-size: 24px;
+    text-align: left;
+    padding: 15px;
+
+}
+
+.inputs-txt {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: normal;
+    color: #0c8873;
+}
+
+.input, .input-2 {
+    border-radius: 8px;
+    border: #a7a7a7 solid 1px;
+    width: 260px;
+    height: 25px;
+
+
+}
+
+.input-2{
+    position: relative;
+
+}
+
+.fieldset button {
+    background-color: transparent;
+    border: none;
+    
+    position: absolute;
+    top:45%;
+    right: 7%;
+}
+
+.fieldset button img{
+    width: 75%;
+}
+
+.divisao {
+    background-color: #a7a7a7;
+    color: #000;
+    height: 160px;
+    width: 1px;
+    margin-bottom: 20px;
+
+}
+
+.btn-personalizar-dados {
+    position: absolute;
+    top: 75%;
+    left: 86.5%;
+
+}
+
+.btn-personalizar-2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 45px;
+
+    border: none;
+    background-color: #047a66;
+}
+
+.btn-personalizar-2 img {
+    position: absolute;
+    top: 21%;
+    left: 22%;
+
+    width: 20px;
+    height: 20px;
+}
+
+/*container dos gerentes*/
+.gerentes-container {
+    position: absolute;
+    top: 76%;
+    left: 32%;
+
+    width: 450px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+
+}
+
+
+
+
+.gerentes-container ul li {
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    border: #a7a7a7 solid 1px;
+    color: #000;
+
+    
+}
+
+.gerentes-title {
+    font-size: 24px;
+    text-align: left;
+    padding: 15px;
+}
+
+.foto-gerente {
+    border-radius: 45px;
+    width: 35px;
+    height: 35px;
+}
+
+.icons-gerente-1 {
+    position: absolute;
+    left: 82%;
+    width: 20px;
+    height: 20px;
+}
+
+.icons-gerente-2 {
+    position: absolute;
+    left: 88%;
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+/*container dos botões*/
+.btn-container {
+    position: absolute;
+    top: 76%;
+    left: 65%;
+
+    width: 300px;
+    height: 280px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+}
+
+.btn-adicionar {
+    position: absolute;
+    top: 26%;
+    left: 19%;
+
+    width: 200px;
+    height: 60px;
+
+    background-color: #047a66;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.btn-adicionar p {
+    font-family: 'Farro';
+    position: absolute;
+    top: 37%;
+    left: 25%;
+}
+
+.btn-icon-1 {
+    width: 30px;
+    position: absolute;
+    top: 24%;
+    left: 8%;
+}
+
+.btn-sair {
+    position: absolute;
+    top: 52%;
+    left: 19%;
+
+    width: 200px;
+    height: 60px;
+
+    background-color: #de0101;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+
+}
+
+.btn-sair p {
+    font-family: 'Farro';
+    position: absolute;
+    top: 37%;
+    left: 28%;
+}
+
+.btn-icon-2 {
+    width: 30px;
+    position: absolute;
+    top: 24%;
+    left: 9.5%;
+}

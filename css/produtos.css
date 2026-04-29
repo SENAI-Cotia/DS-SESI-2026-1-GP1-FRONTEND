@@ -43,6 +43,7 @@
 }
 
 .title h1{
+    font-size: 40px;
     text-align: center;
     color: var(--verde2);
 }
@@ -89,6 +90,10 @@
 .info-produtos{
     margin-top: 25px;
     align-items: flex-start;
+}
+
+.info-produtos h1{
+    font-size: 25px;
 }
 
 .info-produtos p{
@@ -138,14 +143,14 @@
     font-family: "Farro", sans-serif;
 }
 
-.btn-qrCode:hover{
+.btn-qrCode:hover, .btn-add-produto button:hover{
     background-color: #0f6d5d ;
 }
 .btn-editarProduto:hover{
     background-color: rgba(185, 184, 184, 0.329);
 }
 
-.btn-qrCode:active{
+.btn-qrCode:active, .btn-add-produto button:active{
     background-color: #0d5c4f;
 }
 

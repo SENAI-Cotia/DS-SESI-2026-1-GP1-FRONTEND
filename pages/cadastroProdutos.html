@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="/assets/icons/Vector 2.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Produtos</title>
     <link rel="stylesheet" href="/css/global.css">
@@ -29,7 +30,7 @@
                 <img src="/assets/icons/Estoque-icon.svg" alt="estoque">
                 <a href="estoque.html">Estoque</a>
             </li>
-            <li class="ativo">
+            <li>
                 <img src="/assets/icons/famicons_exit-outline (1).svg" alt="">
                 <a href="retirada.html">Retirada</a>
             </li>
@@ -60,6 +61,83 @@
             </div>
 
             <hr>
+        </section>
+
+        <!-- Parte do Cadastro -->
+
+        <section class="container-cadastro">
+            <a href=""><img src="/assets/icons/voltar.svg" alt=""></a>
+            <div class="cadastro-title">
+                    <h1>Cadastro de novo produto</h1>
+                    <p>Insira as informações do produto abaixo!</p>
+            </div>
+
+            <div class="container-label-cadastro">
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="codigo">Código do produto:</label><br>
+                        <input type="text" id="codigo">
+                    </div>
+
+                    <div>
+                        <label for="categoria">Nome do produto:</label><br>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="codigo">Categoria:</label><br>
+                        <input type="text" id="codigo">
+                    </div>
+
+                    <div>
+                        <label for="categoria">Palavra-chave:</label><br>
+                        <input type="text">
+                    </div>
+                </div>
+
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="codigo">Valor de venda:</label><br>
+                        <input type="text" id="codigo">
+                    </div>
+
+                    <div class="estoque-cadastro">
+                        <label for="estoque">Estoque</label><br>
+                        <input type="number"  placeholder="MÍN.:" id="estoque"  min="0" />
+                        <input type="number"  placeholder="MÍN.:" id="estoque"  min="0"/>
+                    </div>
+                </div>
+
+                
+                <div class="linha-cadastro">
+                    <div class="linha-cadastro-2">
+                        <div class="campo-img">
+                            <p>Adicionar imagem</p>
+
+                            <label for="img">
+                                <input type="file" id="img"  accept="image/*" multiple>
+                                <img src="/assets/icons/add-foto-cadastro.svg" alt="">
+                            </label><br>
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="descricao">Descrição</label><br>
+                        <textarea name="descrição" id="descricao"></textarea>
+                    </div>
+                        
+                    
+                </div>
+
+
+
+
+
+                </div>
+            </div>
+
         </section>
     </main>
 </body>

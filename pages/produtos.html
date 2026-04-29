@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="icon" href="/assets/icons/Vector 2.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
     <title>Produtos</title>
     <link rel="stylesheet" href="/css/global.css">
@@ -44,7 +47,6 @@
     <main> 
     
         <!-- Parte do  perfil   -->
-        <section >
             <div class="navPerfil">
                 <a href="/pages/perfil.html">
                     <img src="/assets/icons/Group.svg" alt="usuario">
@@ -58,9 +60,87 @@
                     <img src="/assets/icons/famicons_exit-outline.svg" alt="">
                 </div>
             </div>
-
             <hr>
+
+        <!-- Parte dos produtos em si -->
+        <section class="Produtos-container">
+            <div class="title">
+                <h1>Produtos</h1>
+                <button class="add-produtos">
+                    <a href="/pages/cadastroProdutos.html"> 
+                        <img src="/assets/icons/Vector.svg" alt=""> Adicionar produto
+                    </a>
+                </button>
+            </div>
+            <div class="linhas">
+                <div class="card-produtos">
+                    <img src="/assets/images/iphone.png" alt="iPhone 17 pro max">
+                    <div class="info-produtos">
+                        <h1>iPhone 17 PRO MAX</h1>
+                        <p>Cores disponveis:</p>
+                        <div class="cores">
+                            <img src="/assets/images/cor1 (1).png" alt="cor laranja">
+                            <img src="/assets/images/cor1 (2).png" alt="cor azul marine">
+                            <img src="/assets/images/cor1 (3).png" alt="cor bege/branco">
+                        </div>
+                        <p>Código do produto:</p>
+                        <h6 class="codigo">020508</h6>
+                        
+                        <div class="botoes">
+                            <button class="btn-qrCode">Gerar QR code </button>
+                            <button class="btn-editarProduto">Editar dados do produto</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="card-produtos">
+                    <img src="/assets/images/ps5.png" alt="playstation 5- digital">
+                    <div class="info-produtos">
+                        <h1>Playtation 5 - digital</h1>
+                        <p>Código do produto:</p>
+                        <h6 class="codigo">06907</h6>
+                        
+                        <div class="botoes">
+                            <button class="btn-qrCode">Gerar QR code </button>
+                            <button class="btn-editarProduto">Editar dados do produto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="linhas">
+                <div class="card-produtos">
+                    <img src="/assets/images/mouse.jpg" alt="mouse-DELL">
+                    <div class="info-produtos">
+                        <h1>Mouse Dell Wm126</h1>
+                        <p>Código do produto:</p>
+                        <h6 class="codigo">02578</h6>
+                        
+                        <div class="botoes">
+                            <button class="btn-qrCode">Gerar QR code </button>
+                            <button class="btn-editarProduto">Editar dados do produto</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-produtos">
+                    <img class="r" src="/assets/images/relogio.png" alt="Relogio smartWatch">
+                    <div class="info-produtos">
+                        <h1>Relógio Garmin Venu 4</h1>
+                        <p>Código do produto:</p>
+                        <h6 class="codigo">08892</h6>
+                        
+                        <div class="botoes">
+                            <button class="btn-qrCode">Gerar QR code </button>
+                            <button class="btn-editarProduto">Editar dados do produto</button>
+                        </div>
+                </div>
+            </div>
+
         </section>
+
+
     </main>
     
 </body>

@@ -10,18 +10,6 @@ function togglePassword() {
   }
 }
 
-/* Isso esconde o ícone de senha padrão do Edge/IE */
-input[type="password"]::-ms-reveal,
-input[type="password"]::-ms-clear {
-    display: none;
-}
-
-/* Isso esconde o ícone de preenchimento automático do Chrome */
-input[type="password"]::-webkit-credentials-auto-fill-button {
-    visibility: hidden;
-    display: none;
-}
-
 document.getElementById("loginForm").addEventListener("submit", function(e) {
     e.preventDefault();
 

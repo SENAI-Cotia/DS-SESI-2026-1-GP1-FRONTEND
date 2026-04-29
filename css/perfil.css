@@ -1,8 +1,8 @@
 
 .fundo {
     position: absolute;
-    width: 82.5%;
-    left: 17.5%;
+    width: 85%;
+    left: 15%;
 }
 
 .foto-perfil {
@@ -29,10 +29,10 @@
     }
 }
 
-/*bdfwuf*/
+/*botão personalizar*/
 .btn-personalizar {
     position: absolute;
-    top: 26.5%;
+    top: 25%;
     left: 39.5%;
     width: 35px;
     height: 35px;
@@ -62,11 +62,10 @@
     left: 32%;
 
     width: 800px;
-    height: 225px;
+    height: 260px;
     border-radius: 20px;
     padding: 10px;
     background-color: #fff;
-    opacity: 70%;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
     
@@ -98,7 +97,7 @@
     border-radius: 8px;
     border: #a7a7a7 solid 1px;
     width: 260px;
-    height: 18px;
+    height: 25px;
 
 
 }
@@ -113,8 +112,8 @@
     border: none;
     
     position: absolute;
-    top:48.5%;
-    right: 8.5%;
+    top:45%;
+    right: 7%;
 }
 
 .fieldset button img{
@@ -162,10 +161,9 @@
     left: 32%;
 
     width: 450px;
-    height: 250px;
+    height: 280px;
     border-radius: 20px;
     padding: 10px;
-    opacity: 70%;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
@@ -176,8 +174,8 @@
 
 
 .gerentes-container ul li {
-    width: 390px;
-    height: 20px;
+    width: 400px;
+    height: 40px;
     border-radius: 8px;
     border: #a7a7a7 solid 1px;
     color: #000;
@@ -221,10 +219,9 @@
     left: 65%;
 
     width: 300px;
-    height: 250px;
+    height: 280px;
     border-radius: 20px;
     padding: 10px;
-    opacity: 70%;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
@@ -252,6 +249,7 @@
 }
 
 .btn-icon-1 {
+    width: 30px;
     position: absolute;
     top: 24%;
     left: 8%;
@@ -280,6 +278,7 @@
 }
 
 .btn-icon-2 {
+    width: 30px;
     position: absolute;
     top: 24%;
     left: 9.5%;

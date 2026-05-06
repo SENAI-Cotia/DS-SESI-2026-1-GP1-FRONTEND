@@ -1,0 +1,36 @@
+.conteudo-tabela{
+    position: absolute;
+    top:16%;
+    right: 6%;
+
+}
+
+thead {
+    border: 5px solid red;
+}
+
+
+th{
+    color: var(--verde1);
+    font-size: 22px;
+    width: 270px;
+    font-family: "Farro", sans-serif;
+
+
+}
+
+
+
+td{
+    background-color: #F5F5F5;
+    font-family: "Farro", sans-serif;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+
+
+
+
+

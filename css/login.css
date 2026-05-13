@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: "Farro", sans-serif;
 }
 
 /* Logo */
@@ -94,6 +96,7 @@
 }
 
 
+
 #olho-senha {
   background: transparent url(/assets/icons/olhoFechado.svg) no-repeat center;
   border: none;
@@ -110,6 +113,7 @@
   padding: 0;
   transform: translateY(-50%);
 
+
 }
 
 .input-box input::placeholder {
@@ -119,20 +123,18 @@
 /* ÍCONES */
 
 .icon {
-  position: absolute;
+  position: absolute;s
   right: 12px;
   top: 60%;
 
   font-size: 13px;
-  opacity: 0.8;
   cursor: pointer;
   transform: translateY(-50%);
 }
 
 .icon img {
-  width: 21px;
-  height: 21px;
-  object-fit: contain;
+  width: 25px;
+  height: auto;
 }
 
 /* BOTÃO */
@@ -155,4 +157,9 @@
 .btn-entrar:hover {
   background: white;
   transform: scale(1.02);
+}
+
+.btn-entrar a{
+  color: #0b3f36;
+  text-decoration: none;
 }

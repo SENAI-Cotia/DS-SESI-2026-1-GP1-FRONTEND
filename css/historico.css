@@ -1,0 +1,128 @@
+.fundo {
+    position: absolute;
+    width: 85%;
+    left: 15%;
+}
+
+.container-principal {
+    position: absolute;
+    top: 15%;
+    left: 30%;
+
+    width: 900px;
+    height: 817px;
+    border-radius: 8px;
+
+    background-color: #F5F5F5;
+}
+
+.card-infos {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+
+    width: 880px;
+    height: 800px;
+    border-radius: 8px;
+
+    background-color: #fff;
+
+}
+
+.card-title {
+    position: absolute;
+    top: 2%;
+    left: -1%;
+
+    width: 900px;
+    height: 60px;
+    background-color: #0B8C76;
+}
+
+.card-title p {
+    position: absolute;
+    top: 3%;
+    left: 7%;
+
+    font-size: 30px;
+    color: #CCFBF1;
+}
+
+
+.hr-card-title {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+
+    width: 900px;
+}
+
+.icon-caixa {
+    position: absolute;
+    top: 10%;
+    left: 2%;
+
+    width: 30px;
+    height: 30px;
+
+}
+
+.atributos-historico {
+}
+
+.atributos-title {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+    display: inline-flex;
+    gap: 0px;
+
+    color: #0F766E ;
+    font-size: 5px;
+    font-weight: 300;
+    width: 900px;
+
+}
+
+
+.linha {
+    position: absolute;
+    top: 13%;
+
+    height: 0.5px;  
+    width: 880px;
+    background-color: #B7B7B7;
+}
+
+.informacoes-historico{
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    display: inline-flex;
+    gap: 0px;
+}
+.linha .informacoes-historico td {
+    background-color: none;
+}
+
+.info-2 {
+    position: absolute;
+    left: 102%;
+
+}
+
+.linha-2 {
+    position: absolute;
+    top: 18%;
+    left: 0%;
+    
+    height: 0.5px;  
+    width: 880px;
+    background-color: #B7B7B7;
+}
+
+.info-3 {
+    position: absolute;
+    left: 180%;
+
+}

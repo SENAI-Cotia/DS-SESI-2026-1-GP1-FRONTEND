@@ -10,8 +10,8 @@
     top: 10%;
     left: 32%;
 
-    width: 150px;
-    height: 150px;
+    width: 190px;
+    height: auto;
     border-radius: 100%;
 }
 
@@ -21,7 +21,7 @@
     left: 44.5%;
 
     font-weight: bold;
-    font-size: 24px;
+    font-size: 34px;
 
     .msg-nome {
         color: #115E59;
@@ -32,8 +32,9 @@
 /*botão personalizar*/
 .btn-personalizar {
     position: absolute;
-    top: 25%;
-    left: 39.5%;
+    top: 26%;
+    left: 39%;
+
     width: 35px;
     height: 35px;
     border-radius: 45px;
@@ -61,7 +62,8 @@
     top: 35%;
     left: 32%;
 
-    width: 800px;
+    width: 840px;
+
     height: 260px;
     border-radius: 20px;
     padding: 10px;
@@ -94,11 +96,15 @@
 }
 
 .input, .input-2 {
-    border-radius: 8px;
+    border-radius: 11px;
     border: #a7a7a7 solid 1px;
     width: 260px;
     height: 25px;
+    padding-left: 15px;
+    font-family: "Farro", sans-serif;
 
+
+    cursor: pointer;
 
 }
 
@@ -106,6 +112,11 @@
     position: relative;
 
 }
+
+.input:focus, .input-2:focus{
+    outline: none;
+}
+
 
 .fieldset button {
     background-color: transparent;
@@ -132,7 +143,7 @@
 .btn-personalizar-dados {
     position: absolute;
     top: 75%;
-    left: 86.5%;
+    left: 88%;
 
 }
 
@@ -177,16 +188,28 @@
     width: 400px;
     height: 40px;
     border-radius: 8px;
-    border: #a7a7a7 solid 1px;
+    border: #cccbcb solid 2px;
     color: #000;
 
-    
+    list-style: none;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 205px;
+    margin-bottom: 15px;
+}
+
+.gerentes-container ul li div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .gerentes-title {
     font-size: 24px;
     text-align: left;
     padding: 15px;
+    color: var(--verde2);
 }
 
 .foto-gerente {
@@ -200,6 +223,7 @@
     left: 82%;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 .icons-gerente-2 {
@@ -207,6 +231,7 @@
     left: 88%;
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 
 
@@ -216,7 +241,7 @@
 .btn-container {
     position: absolute;
     top: 76%;
-    left: 65%;
+    left: 60%;
 
     width: 300px;
     height: 280px;
@@ -239,7 +264,9 @@
     color: #fff;
     border: none;
     border-radius: 30px;
+    cursor: pointer;
 }
+
 
 .btn-adicionar p {
     font-family: 'Farro';
@@ -268,6 +295,10 @@
     border: none;
     border-radius: 30px;
 
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+
 }
 
 .btn-sair p {
@@ -280,6 +311,6 @@
 .btn-icon-2 {
     width: 30px;
     position: absolute;
-    top: 24%;
+    top: 25%;
     left: 9.5%;
 }

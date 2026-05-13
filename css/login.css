@@ -9,6 +9,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
+  font-family: "Farro", sans-serif;
 }
 
 /* Logo */
@@ -143,4 +145,9 @@
 .btn-entrar:hover {
   background: white;
   transform: scale(1.02);
+}
+
+.btn-entrar a{
+  color: #0b3f36;
+  text-decoration: none;
 }

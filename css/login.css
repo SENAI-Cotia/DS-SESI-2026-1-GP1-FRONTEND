@@ -96,11 +96,17 @@
 .input-box button {
   position: absolute;
   right: 10px;
-  background: transparent;
+  background-color: red;
   border: none;
   cursor: pointer;
-  display: flex;
+
   align-items: center;
+  text-align: center;
+}
+
+.input-box button img{
+  width: 25px;
+
 }
 
 .input-box input::placeholder {
@@ -112,17 +118,14 @@
 .icon {
   position: absolute;
   right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 20%;
   font-size: 13px;
-  opacity: 0.8;
   cursor: pointer;
 }
 
 .icon img {
-  width: 21px;
-  height: 21px;
-  object-fit: contain;
+  width: 25px;
+  height: auto;
 }
 
 /* BOTÃO */

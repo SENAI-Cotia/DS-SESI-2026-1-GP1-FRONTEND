@@ -1,8 +1,8 @@
 
 .fundo {
     position: absolute;
-    width: 85%;
-    left: 15%;
+    width: 83%;
+    left: 17%;
 }
 
 .foto-perfil {
@@ -156,6 +156,8 @@
     background-color: #047a66;
 }
 
+
+
 .btn-personalizar-2 img {
     position: absolute;
     top: 21%;
@@ -299,6 +301,7 @@
     align-items: center;
     cursor: pointer;
 
+
 }
 
 .btn-sair p {
@@ -313,4 +316,22 @@
     position: absolute;
     top: 25%;
     left: 9.5%;
+}
+
+
+.btn-sair:hover{
+    background-color: #970303;
+}
+.btn-sair:active{
+    background-color: #5c0303;
+    transform: scale(1.02);
+}
+
+.btn-personalizar-2:hover, .btn-personalizar:hover, .btn-adicionar:hover{
+    background-color: #0f6d5d;
+}
+
+.btn-adicionar:active{
+    background-color: #115E59;
+    transform: scale(1.02) ;
 }

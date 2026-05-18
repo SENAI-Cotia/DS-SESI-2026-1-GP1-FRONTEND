@@ -97,7 +97,7 @@
 .informacoes-historico{
     position: absolute;
     top: 13%;
-    left: 3%;
+    left: 0%;
     display: inline-flex;
     gap: 0px;
 }
@@ -107,7 +107,7 @@
 
 .info-2 {
     position: absolute;
-    left: 102%;
+    left: 122%;
 
 }
 
@@ -123,6 +123,13 @@
 
 .info-3 {
     position: absolute;
-    left: 180%;
+    left: 185%;
 
+}
+
+td{
+    background-color: unset;
+    font-family: "Farro", sans-serif;
+    text-align: center;
+    padding: 10px 15px;
 }

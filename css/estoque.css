@@ -5,6 +5,13 @@
 
 }
 
+.tabela-estoque{
+    border: 2px solid #EBEBEB;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+
 thead {
     border: 5px solid red;
 }
@@ -12,13 +19,14 @@ thead {
 
 th{
     color: var(--verde1);
-    font-size: 22px;
-    width: 270px;
+
+    font-size: 23px;
+    width: 220px;
+
     font-family: "Farro", sans-serif;
 
 
 }
-
 
 
 td{

@@ -15,14 +15,17 @@
 
 
 }
+
 .ola-titles{
     text-align: center;
     background-color: red;
 }
+
 .title-ola {
     position: absolute;
     top: 37%;
     left: 10%;
+
 
     font-size: 30px;
     color: var(--verde1);
@@ -32,9 +35,9 @@
     position: absolute;
     top: 51%;
     left: 10%;
-
     font-size: 25px;
 }
+
 
 .title-ola-3 {
     position: absolute;
@@ -42,7 +45,6 @@
     left: 9%;
     font-size: 13px;
     font-weight: 100;
-
 }
 
 .imagens-businessman {
@@ -62,9 +64,6 @@
     width: 200px;
     height: 200px;
 }
-
-
-
 
 .title-performance {
     font-size: 25px;
@@ -242,4 +241,5 @@
     left: 8%;
     width: 500px;
     height: 300px;
-}
+
+

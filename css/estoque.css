@@ -13,12 +13,8 @@
 
 
 thead {
-    border: 5px solid red;
-  
-
-thead {
-    background-color: rgba(11, 140, 118, 0.1);
     margin: 25px;
+    background-color: rgba(11, 140, 118, 0.1);
 }
 
 .title-estoque tr div{
@@ -42,7 +38,6 @@ td{
     text-align: center;
     padding: 10px 15px;
 }
-
 
 
 

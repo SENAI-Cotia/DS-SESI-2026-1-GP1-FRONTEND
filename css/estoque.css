@@ -9,12 +9,12 @@
     border: 2px solid #EBEBEB;
     padding: 25px;
     border-radius: 25px;
-    
 }
 
+
 thead {
-    background-color: rgba(11, 140, 118, 0.1);
     margin: 25px;
+    background-color: rgba(11, 140, 118, 0.1);
 }
 
 .title-estoque tr div{
@@ -22,13 +22,14 @@ thead {
 }
 .tabela-estoque .title-estoque tr th{
     color: var(--verde1);
+
     font-size: 23px;
-    width: 270px;
+    width: 220px;
+
     font-family: "Farro", sans-serif;
     padding: 15px 0px 15px 0px;
 
 }
-
 
 
 td{
@@ -37,7 +38,6 @@ td{
     text-align: center;
     padding: 10px 15px;
 }
-
 
 
 

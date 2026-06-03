@@ -1,12 +1,13 @@
+
 * {
     list-style: none;
 }
 .container-ola {
     position: absolute;
     top: 15%;
-    left: 30%;
+    left: 25%;
 
-    width: 600px;
+    width: 800px;
     height: 200px;
 
     border-radius: 20px;
@@ -15,20 +16,28 @@
 
 }
 
+.ola-titles{
+    text-align: center;
+    background-color: red;
+}
+
 .title-ola {
     position: absolute;
     top: 37%;
     left: 10%;
 
-    font-size: 25px;
+
+    font-size: 30px;
+    color: var(--verde1);
+    font-weight: bold;
 }
 .title-ola-2 {
     position: absolute;
-    top: 50%;
+    top: 51%;
     left: 10%;
-
     font-size: 25px;
 }
+
 
 .title-ola-3 {
     position: absolute;
@@ -36,29 +45,25 @@
     left: 9%;
     font-size: 13px;
     font-weight: 100;
-
 }
 
 .imagens-businessman {
     position: absolute;
-    top: 25%;
-    left: 57%;
+    top:-6.5%;
+    left: 51%;
 
-    width: 170px;
-    height: 170px;
+    width: 260px;
+    height: auto;
 }
 
 .imagens-retangulo {
     position: absolute;
     top: 12%;
-    left: 55%;
+    left: 56%;
 
     width: 200px;
     height: 200px;
 }
-
-
-
 
 .title-performance {
     font-size: 25px;
@@ -236,4 +241,5 @@
     left: 8%;
     width: 500px;
     height: 300px;
-}
+
+

@@ -1,0 +1,148 @@
+body {
+    overflow: hidden;
+}
+
+.sidebar {
+    position: relative;
+    z-index: 10;
+    width: 260px;
+}
+
+/* CONTAINER DO TEXTO */
+.cadastro-header {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main-title {
+    font-size: 36px;
+    color: var(--verde2);
+    font-weight: 700;
+}
+
+.subtitle {
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    max-height: max-content;
+    transform: translateY(-14px);
+}
+
+/* REQUISITOS DE CADASTRO */
+.cadastro-wrapper {
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    transform: translateY(-980px);
+    z-index: 5;
+    width: 870px;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.input-block {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.grid-cadastro {
+    margin: 0;
+}
+
+label {
+    margin: 0;
+}
+
+.input-block label {
+    color: rgb(117, 117, 117);
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 6%;
+    transform: translateY(10px);
+}
+
+/* CAMPOS ARREDONDADOS */
+.input-block input {
+    width: 124%;
+    padding: 15px 20px;
+    border: 1px solid #cddcd8;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.lista-requisitos {
+    list-style: none;
+    padding: 0;
+    margin-top: 2px;
+    flex-direction: column;
+    gap: 6px;
+    margin-left: 0px;
+}
+
+
+.lista-requisitos li {
+    font-size: 11px;
+    color: #b5bebd;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.btn-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    transform: translateX(17px);
+}
+
+.btn-cadastrar {
+    background-color: #008f7a;
+    color: rgb(236, 236, 236);
+    border: none;
+    padding: 12px 87px;
+    border-radius: 21px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.2s;
+    transform: translateY(12px);
+}
+
+.btn-cadastrar:hover {
+    background-color: #097c6d;
+}
+
+/* GERENTES */
+.image-side {
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.image-side img{
+    width: 467px; 
+    transform: translateY(-193px);
+    margin-left: -11%;
+    z-index: 1;
+}
+
+/* ONDA DE FUNDO */
+.degrade-bg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 103%;
+    z-index: -1;
+}
+
+.degrade-bg img {
+    width: 101%;
+    transform: translateX(-562px);
+    transform: translateY(197px);
+}

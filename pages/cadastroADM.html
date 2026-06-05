@@ -7,8 +7,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" href="/assets/icons/icone-aba.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>EasyStock</title>
-    <link rel="stylesheet" href="/css/global.css">
+    <title>CadastroADM</title>
+    <link rel="stylesheet" href="../css/global.css">
+  <script src="../js/java.js"></script>
 </head>
 <body>
     
@@ -41,7 +42,7 @@
     <main> 
     
         <!-- Parte do  perfil   -->
-        <section >
+      <section >
             <div class="navPerfil">
                 <a href="/pages/perfil.html">
                     <img src="/assets/icons/icone-user-verde.svg" alt="usuario">
@@ -57,9 +58,55 @@
             </div>
             <hr>
         </section>
-    </main>
-    
-  
-</body>
-</html>
 
+    <!-- CADASTRO -->
+      <div class="cadastro-wrapper">
+        <form class="cadastro-form">
+         <div class="input-block">
+            <h1 class="main-title">Cadastre novos gerentes!</h1>
+            <p class="subtitle">Vamos adicionar um novo gerente? Preencha os dados para cadastrar!</p>
+         </div>
+
+         <div class="grid-cadastro">
+            <form class="cadastro-form">
+              <div class="input-block">
+                <label>Nome:</label>
+                <input type="text" name="nome">
+              </div>
+
+                <div class="input-block">
+                    <label>Email:</label>
+                    <input type="email" name="email">
+                </div>
+
+                <div class="input-block">
+                  <label>Senha:</label>
+                    <input type="password" name="senha" value="12345678">
+                    
+                    <ul class="lista-requisitos">
+                        <li>Comprimento da senha: mínimo de oito caracteres.</li>
+                        <li>Caracteres numéricos: mínimo de dois números.</li>
+                        <li>Caracteres especiais: mínimo de um caractere especial.</li>
+                        <li>Letras maiúsculas: mínimo de uma letra maiúscula.</li>
+                        <li>Letras minúsculas: mínimo de uma letra minúscula.</li>
+                    </ul>
+                  </div>
+                </form>
+
+                <div class="btn-action">
+                    <button type="submit" class="btn-cadastrar">Cadastrar</button>
+                </div>
+                </div>
+               </form>
+            </div>
+
+        <!-- IMAGENS -->
+        <div class="image-side">
+         <img src="../assets/images/people.png" alt="Gerentes">
+        </div>
+        <div class="degrade-bg">
+         <img src="../assets/images/degrade.png" alt="Onda">
+        </div>
+    </main>
+  </body>
+</html>

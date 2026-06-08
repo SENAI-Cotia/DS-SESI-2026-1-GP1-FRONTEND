@@ -57,6 +57,39 @@ body {
     margin: 0;
 }
 
+.navPerfil {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navPerfil p {
+    color:var(--verde2);
+    margin-left: 12px;
+    flex: 1;
+    font-size: larger;
+    transform: translateY(16px);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: large;
+}
+
+.navPerfil img {
+    width: 66px;
+    height: 38px;
+    transform: translateY(8px);
+}
+
+hr {
+    width: 100%;
+    margin-top: 8px;
+}
+
 label {
     margin: 0;
 }

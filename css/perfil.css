@@ -1,4 +1,3 @@
-
 .fundo {
     position: absolute;
     width: 83%;
@@ -125,10 +124,6 @@
     position: absolute;
     top:45%;
     right: 7%;
-}
-
-.fieldset button img{
-    width: 75%;
 }
 
 .divisao {

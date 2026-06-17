@@ -21,11 +21,6 @@
 
     font-weight: bold;
     font-size: 34px;
-
-    .msg-nome {
-        color: #115E59;
-
-    }
 }
 
 /*botão personalizar*/
@@ -51,11 +46,6 @@
     height: 20px;
 }
 
-
-
-
-
-
 .dados-container {
     position: absolute;
     top: 35%;
@@ -67,9 +57,8 @@
     border-radius: 20px;
     padding: 10px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-
-    
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, 
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
 
 .dados-pessoais {
@@ -132,14 +121,12 @@
     height: 160px;
     width: 1px;
     margin-bottom: 20px;
-
 }
 
 .btn-personalizar-dados {
     position: absolute;
     top: 75%;
     left: 88%;
-
 }
 
 .btn-personalizar-2 {
@@ -173,13 +160,9 @@
     border-radius: 20px;
     padding: 10px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
-
-
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, 
+    rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 }
-
-
-
 
 .gerentes-container ul li {
     width: 400px;
@@ -231,9 +214,6 @@
     cursor: pointer;
 }
 
-
-
-
 /*container dos botões*/
 .btn-container {
     position: absolute;
@@ -245,7 +225,8 @@
     border-radius: 20px;
     padding: 10px;
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, 
+    rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
 
 }
 
@@ -263,7 +244,6 @@
     border-radius: 30px;
     cursor: pointer;
 }
-
 
 .btn-adicionar p {
     font-family: 'Farro';

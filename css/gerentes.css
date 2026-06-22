@@ -1,0 +1,76 @@
+.section-gerentes h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--verde2);
+
+    margin-bottom: 53px;
+}
+
+.section-gerentes {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10rem;
+    margin-left: 15%;
+
+    font-family: "Farro", sans-serif;
+}
+
+
+
+.tabela-gerentes{ 
+    border: 2px solid #EBEBEB;
+    padding: 25px;
+    border-radius: 25px;
+    
+}
+
+
+.conteudo-gerentes .tabela-gerentes .title-gerentes-tabela{
+    margin: 25px;
+    background-color: rgba(11, 140, 118, 0.1);
+}
+
+.tabela-gerentes .title-gerentes-tabela tr th{
+    color: var(--verde1);
+
+    font-size: 23px;
+    width: 220px;
+
+    font-family: "Farro", sans-serif;
+    padding: 15px 0px 15px 0px;
+
+}
+
+
+#linha-estoque tr td{
+    background-color: #EBEBEB;
+    font-family: "Farro", sans-serif;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+
+
+.btn-editar-gerentes{
+    background: transparent url(../assets/icons/lapis-icon.svg) no-repeat center;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+
+}
+
+.btn-excluir-gerentes{
+    background: transparent url(../assets/icons/lixo-icon.svg) no-repeat center; 
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    padding: 25px;
+}

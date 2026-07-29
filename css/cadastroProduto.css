@@ -1,9 +1,10 @@
+
 .container-cadastro{
     position: absolute;
     left: 38%;
     top: 16%;
+
     text-align: center;
-    transform: translateY(14px);
 }
 
 .container-cadastro img{
@@ -21,20 +22,14 @@
     width: 75%;
 }
 
-.cadastro-title p {
-    color: rgb(117, 117, 117);
-}
-
-.container-label-cadastro {
-    transform: translateY(30px);
-}
 
 
 .linha-cadastro{
     margin-top: 25px;
     display: flex;
+    
     justify-content: space-between;
-    gap: 35px;
+    gap: 5px;
 }
 
 
@@ -43,16 +38,14 @@
 }
 
 .linha-cadastro div label{
-    color: rgb(117, 117, 117);
+    color: #717171;
     margin-left: 10px;
-    top: 1px;
-    font-size: 18px;
 }
 
 .linha-cadastro div input{
-    border: 1px solid #cddcd8;
+    border: 0.5px solid rgba(0, 0, 0, 0.28);
     border-radius: 11px;
-    height: 40px;
+    height: 30px;
     width: 300px;
     padding-left: 15px;
     margin-bottom: 15px;
@@ -68,7 +61,7 @@
 
 .linha-cadastro .estoque-cadastro input{
     height: 25px;
-    width: 140px;
+    width: 300px;
 }
 
 
@@ -81,7 +74,7 @@
 .linha-cadastro-2 label {
     width: 315px;
     height: 120px;
-    border: 1px solid #cddcd8;
+    border: 0.5px solid rgba(0,0,0,0.3);
     border-radius: 11px;
     display: flex;
     align-items: center;
@@ -89,6 +82,7 @@
     cursor: pointer;
     position: relative;
 }
+
 
 .linha-cadastro-2 input{
     display: none;
@@ -112,7 +106,7 @@
 }
 
 #descricao{
-    border: 1px solid #cddcd8;
+    border: 0.5px solid rgba(0, 0, 0, 0.28);
     border-radius: 11px;
     height: 104px;
     width: 300px;
@@ -120,7 +114,6 @@
     padding-top: 15px;
     margin-bottom: 15px;
 
-    resize: none;
     font-family: "Farro", sans-serif;
 }
 
@@ -130,34 +123,10 @@
 }
 
 .btn-add-produto button{
-    background-color: #008f7a;
+    background-color: var(--verde1);
     border: none;
-    padding: 13px;
-    border-radius: 21px;
-    font-size: 20px;
-    width: 100%;
-    max-width: 276px;
-    color: rgb(236, 236, 236);
-    cursor: pointer;
-    transition: background 0.2s;
-    margin-top: 46px;
+    padding:15px;
+    border-radius: 25px;
+    color: #fff;
 }
 
-.btn-add-produto button:hover {
-    background-color: #097c6d;
-}
-
-/* ONDA DE FUNDO */
-.degrade-bg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 103%;
-    z-index: -1;
-}
-
-.degrade-bg img {
-    width: 101%;
-    transform: translateX(-562px);
-    transform: translateY(197px);
-}

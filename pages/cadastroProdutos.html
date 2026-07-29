@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
     <link rel="icon" href="/assets/icons/icone-aba.svg" type="image/x-icon">
 
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Cadastro Produtos</title>
+    <title>EasyStock</title>
     <link rel="stylesheet" href="../css/global.css">
 </head>
 <body>
@@ -21,20 +21,16 @@
         
         <ul>
             <li>
-                <img src="/assets/icons/dashboard-icone.svg" alt="dashboard">
+                <img src="../assets/icons/dashboard-icone.svg" alt="dashboard">
                 <a href="home.html">Dashboard</a>
             </li >
             <li class="ativo">
-                <img src="/assets/icons/produtos-icon.svg" alt="produtos">
+                <img src="../assets/icons/produtos-icon.svg" alt="produtos">
                 <a href="produtos.html">Produtos</a>
             </li>
             <li>
-                <img src="/assets/icons/Estoque-icon.svg" alt="estoque">
+                <img src="../assets/icons/Estoque-icon.svg" alt="estoque">
                 <a href="estoque.html">Estoque</a>
-            </li>
-            <li>
-                <img src="/assets/icons/icone-relogio.svg" alt="">
-                <a href="historico.html">Historico</a>
             </li>
         </ul>
 
@@ -43,37 +39,33 @@
     <main> 
     
         <!-- Parte do  perfil   -->
-        <section>
+        <section >
             <div class="navPerfil">
-               <a href="/pages/perfil.html">
-                  <img src="/assets/icons/icone-user-verde.svg" alt="usuario">
-               </a>
+                <a href="../pages/perfil.html">
+                    <img src="../assets/icons/icone-user-verde.svg" alt="usuario">
+                </a>
 
-               <p>Ronaldo blá blá</p>
+                <p>Ronaldo blá blá</p>
+                
 
-               <div class="icons">
-               <a href="/pages/notificacoes.html">
-                  <img src="/assets/icons/icone-notificacoes.svg" alt="notificacoes">
-               </a>
-
-               <a href="/pages/login.html">
-                <img src="/assets/icons/icone-sair-verde.svg" alt="sair">
-               </a>
-              </div>
+                <div>
+                    <img src="../assets/icons/icone-notificacoes.svg" alt="">
+                    <img src="../assets/icons/icone-sair-verde.svg" alt="" onclick="sair()">
+                </div>
             </div>
-          <hr>
-      </section>
+            <hr>
+        </section>
 
         <!-- Parte do Cadastro -->
 
         <section class="container-cadastro">
-            <a href="/pages/produtos.html"><img src="/assets/icons/voltar.svg" alt=""></a>
+            <a href="../pages/produtos.html"><img src="../assets/icons/voltar.svg" alt=""></a>
             <div class="cadastro-title">
                     <h1>Cadastro de novo produto</h1>
                     <p>Insira as informações do produto abaixo!</p>
             </div>
 
-            <div class="container-label-cadastro">
+            <form id="container-label-cadastro">
                 <div class="linha-cadastro">
                     <div>
                         <label for="codigo">Código do produto:</label><br>
@@ -81,47 +73,40 @@
                     </div>
 
                     <div>
-                        <label for="categoria">Nome do produto:</label><br>
-                        <input type="text">
+                        <label for="nome">Nome do produto:</label><br>
+                        <input type="text" id="nome">
                     </div>
                 </div>
 
                 <div class="linha-cadastro">
                     <div>
-                        <label for="codigo">Categoria:</label><br>
-                        <input type="text" id="codigo">
+                        <label for="categoria">Categoria:</label><br>
+                        <input type="text" id="categoria">
                     </div>
-
                     <div>
-                        <label for="categoria">Palavra-chave:</label><br>
-                        <input type="text">
-                    </div>
-                </div>
-
-                <div class="linha-cadastro">
-                    <div>
-                        <label for="codigo">Valor de venda:</label><br>
-                        <input type="text" id="codigo">
-                    </div>
-
-                    <div class="estoque-cadastro">
                         <label for="estoque">Estoque</label><br>
-                        <input type="number"  placeholder="MÍN.:" id="estoque"  min="0" />
-                        <input type="number"  placeholder="MÁX.:" id="estoque"  min="0"/>
+                        <input type="number" id="estoque"  min="0" />
                     </div>
+                </div>
+
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="venda">Valor de venda:</label><br>
+                        <input type="number" id="venda" min="0" max="10000">
+                    </div>
+
+                    <div>
+                        <label for="filial">Filial:</label><br>
+                        <input type="number" id="filial" min="0" max="10">
+                    </div>
+
                 </div>
 
                 
                 <div class="linha-cadastro">
-                    <div class="linha-cadastro-2">
-                        <div class="campo-img">
-                            <p>Adicionar imagem</p>
-
-                            <label for="img">
-                                <input type="file" id="img"  accept="image/*" multiple>
-                                <img src="/assets/icons/MaisVerde.svg" alt="">
-                            </label><br>
-                        </div>
+                    <div>
+                        <label for="url">URL da imagem do produto:</label><br>
+                        <input type="text" id="url">
                     </div>
 
                     <div>
@@ -132,15 +117,12 @@
                 
             </div>
             <div class="btn-add-produto">
-                <button>Adicionar Produto</button>
+                <button type="submit">Adicionar Produto</button>
             </div>
 
         </section>
-
-        <!-- IMAGEN -->
-        <div class="degrade-bg">
-         <img src="../assets/images/degrade.png" alt="Onda">
-      </div>
-   </main>
+    </main>
+    
 </body>
+<script src="../js/cadastroProdutos.js"></script>
 </html>

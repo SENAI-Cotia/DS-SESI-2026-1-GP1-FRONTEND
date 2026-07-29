@@ -16,6 +16,9 @@ nav{
     border-bottom-right-radius: 25px;
     
     padding: 20px;
+    position: fixed;
+    display: block;
+    flex-shrink: 0;
 }
 
 ul{

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="/assets/icons/icone-aba.svg" type="image/x-icon">
+    <link rel="icon" href="../assets/icons/icone-aba.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <title>Estoque</title>
+    <title>EasyStock</title>
     <link rel="stylesheet" href="../css/global.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
         
         <ul>
             <li>
-                <img src="/assets/icons/dashboard-icone.svg" alt="dashboard">
+                <img src="../assets/icons/dashboard-icone.svg" alt="dashboard">
                 <a href="home.html">Dashboard</a>
             </li >
             <li>
@@ -30,10 +30,7 @@
                 <img src="../assets/icons/Estoque-icon.svg" alt="estoque">
                 <a href="estoque.html">Estoque</a>
             </li>
-            <li>
-                <img src="/assets/icons/icone-relogio.svg" alt="">
-                <a href="historico.html">Historico</a>
-            </li>
+            
         </ul>
 
 
@@ -41,26 +38,22 @@
     <main> 
     
         <!-- Parte do  perfil   -->
-        <section>
+        <section >
             <div class="navPerfil">
-               <a href="/pages/perfil.html">
-                  <img src="/assets/icons/icone-user-verde.svg" alt="usuario">
-               </a>
+                <a href="../pages/perfil.html">
+                    <img src="../assets/icons/icone-user-verde.svg" alt="usuario">
+                </a>
 
-               <p>Ronaldo blá blá</p>
+                <p id="nav-nome"></p>
+                
 
-               <div class="icons">
-               <a href="/pages/notificacoes.html">
-                  <img src="/assets/icons/icone-notificacoes.svg" alt="notificacoes">
-               </a>
-
-               <a href="/pages/login.html">
-                <img src="/assets/icons/icone-sair-verde.svg" alt="sair">
-               </a>
-              </div>
+                <div>
+                    <img src="../assets/icons/icone-notificacoes.svg" alt="">
+                    <img src="../assets/icons/icone-sair-verde.svg" alt="" onclick="sair()">
+                </div>
             </div>
-          <hr>
-      </section>
+            <hr>
+        </section>
 
         <section class="conteudo-tabela">
             <table class="tabela-estoque">
@@ -77,7 +70,7 @@
                 </thead>
 
                 <!-- Corpo/ informações e linhas da tebela -->
-                <tbody id = "linha-estoque">
+                <tbody id ="linha-estoque">
                     
                 </tbody>
 
@@ -86,5 +79,5 @@
     </main>
     
 </body>
-<script src="/js/estoque.js"></script>
+<script src="../js/estoque.js"></script>
 </html>

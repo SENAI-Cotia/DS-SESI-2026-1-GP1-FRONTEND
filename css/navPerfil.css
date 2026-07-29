@@ -26,6 +26,7 @@
 
 img {
     width: 45%;
+    cursor: pointer;
 }
 
 hr {

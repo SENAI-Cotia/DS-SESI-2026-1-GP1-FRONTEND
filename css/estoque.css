@@ -12,14 +12,11 @@
 }
 
 
-thead {
+.conteudo-tabela .tabela-estoque .title-estoque{
     margin: 25px;
     background-color: rgba(11, 140, 118, 0.1);
 }
 
-.title-estoque tr div{
-    background-color: rgb(185, 73, 73);
-}
 .tabela-estoque .title-estoque tr th{
     color: var(--verde1);
 
@@ -32,7 +29,7 @@ thead {
 }
 
 
-td{
+#linha-estoque tr td{
     background-color: #F5F5F5;
     font-family: "Farro", sans-serif;
     text-align: center;

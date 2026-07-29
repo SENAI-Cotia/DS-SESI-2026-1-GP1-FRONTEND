@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>EasyStock</title>
+    <link rel="icon" href="../assets/icons/icone-aba.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/global.css">
+
+</head>
+
+<body>
+
+
+    <img src="../assets/images/fundo.png" class="fundo">
+
+    <nav>
+        <!-- Logo -->
+        <img class="logo" src="../assets/icons/logo.svg" alt="Logo EasyStock">
+        <!-- barra de opções -->
+
+
+        <ul>
+            <li>
+                <img src="../assets/icons/dashboard-icone.svg" alt="dashboard">
+                <a href="home.html">Dashboard</a>
+            </li>
+            <li>
+                <img src="../assets/icons/produtos-icon.svg" alt="produtos">
+                <a href="produtos.html">Produtos</a>
+            </li>
+            <li>
+                <img src="../assets/icons/Estoque-icon.svg" alt="estoque">
+                <a href="estoque.html">Estoque</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="navPerfil">
+            <a href="../pages/perfil.html">
+                <img src="../assets/icons/icone-user-verde.svg" alt="usuario">
+            </a>
+
+            <p id="nav-nome"></p>
+
+
+            <div>
+                <img src="../assets/icons/icone-notificacoes.svg" alt="">
+                <img src="../assets/icons/icone-sair-verde.svg" alt="" onclick="sair()">
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <section class="section-gerentes">
+        <h1 class="title-gerentes-pag">Seus gerentes</h1>
+
+        <section class="conteudo-gerentes">
+            <table class="tabela-gerentes">
+                <!-- Titulo da tabelas / colunas  -->
+                <thead class="title-gerentes-tabela">
+                    <tr>
+                        <th>Foto de perfil</th>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th style="min-width: 100px">Funções</th>
+                    </tr>
+                </thead>
+
+                <!-- Corpo/ informações e linhas da tebela -->
+                <tbody id="linha-estoque">
+                    
+
+                </tbody>
+
+            </table>
+
+
+        </section>
+
+        <div></div>
+        <div></div>
+    </section>
+
+
+    <script src="../js/gerente.js"></script>
+</body>
+
+</html>

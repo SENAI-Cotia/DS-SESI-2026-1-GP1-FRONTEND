@@ -1,5 +1,44 @@
+
+const token = sessionStorage.getItem('token')
+// Mostra todos os produtos da API
+fetch("http://localhost:3000/produtos", {
+    headers: {'Authorization': 'Bearer ' + token}
+}).then(response => {
+    if(!response.ok) alert("Ocorreu um erro")
+    return response.json()
+}).then(data => {
+    const lista = document.getElementById("linhas")
+
+    data.forEach(function(produto){
+        const produtoItem = document.createElement("div")
+        produtoItem.classList.add("card-produtos")
+        produtoItem.innerHTML = `
+        <img src="${produto.imagem}" alt="${produto.nome}">
+        <div class="info-produtos">
+            <h1>${produto.nome}</h1>
+            <div class="linha-info">
+                <div>
+                    <p>Código do produto: <span><br> ${produto.codigo_barra}</span></p>
+                    <p>Categoria: <span><br>${produto.categoria}</span></p>
+                </div>
+                <div>
+                    <p>Valor de venda: <span><br> ${produto.preco}</span></p>
+                <p>Descrição:<p style ="width:5px; display: block; text-overflow: ellipsis;"><br> ${produto.descricao}</span></p>
+                </div>
+            </div>
+            <div class="botoes">
+                <button class="btn-qrCode">Gerar QR code</button>
+                <button class="btn-editarProduto" onclick="editarProduto('${produto.nome}', '${produto.categoria}', '${produto.preco}', '${produto.imagem}', '${produto.id_produto}', '${produto.descricao}')">
+                    Editar dados do produto
+                </button>
+            </div>
+        </div>
+        `
+        lista.appendChild(produtoItem)
+    })
+})
 const user = JSON.parse(sessionStorage.getItem("user"))
-const token = sessionStorage.getItem("token")
+
 
 document.getElementById("nav-nome").textContent = user.nome
 
@@ -46,45 +85,6 @@ dialog.innerHTML = `
 document.body.appendChild(dialog)
 
 
-
-// Mostra todos os produtos da API
-fetch("http://localhost:3000/produtos", {
-    headers: {'Authorization': 'Bearer ' + token}
-}).then(response => {
-    if(!response.ok) alert("Ocorreu um erro")
-    return response.json()
-}).then(data => {
-    const lista = document.getElementById("linhas")
-
-    data.forEach(function(produto){
-        const produtoItem = document.createElement("div")
-        produtoItem.classList.add("card-produtos")
-        produtoItem.innerHTML = `
-        <img src="${produto.imagem}" alt="${produto.nome}">
-        <div class="info-produtos">
-            <h1>${produto.nome}</h1>
-            <div class="linha-info">
-                <div>
-                    <p>Código do produto: <span><br> ${produto.codigo_barra}</span></p>
-                    <p>Categoria: <span><br>${produto.categoria}</span></p>
-                </div>
-                <div>
-                    <p>Valor de venda: <span><br> ${produto.preco}</span></p>
-                    <p>Descrição: <span><br> ${produto.descricao}</span></p>
-                </div>
-            </div>
-            <div class="botoes">
-                <button class="btn-qrCode">Gerar QR code</button>
-                <button class="btn-editarProduto" onclick="editarProduto('${produto.nome}', '${produto.categoria}', '${produto.preco}', '${produto.imagem}', '${produto.id_produto}', '${produto.descricao}')">
-                    Editar dados do produto
-                </button>
-            </div>
-        </div>
-        `
-        lista.appendChild(produtoItem)
-    })
-})
-
 let idProdutoEditando = null
 function editarProduto(nome, categoria, preco, imagem, id_produto, descricao) {
     idProdutoEditando = id_produto
@@ -107,7 +107,8 @@ async function salvarEdicao() {
     const descricao = document.getElementById("descricao-edit").value
 
     try {
-        const response = await fetch(`http://localhost:3000/produtos/${idProdutoEditando}`, {
+        const response = await fetch(`http://localhost:3000/produtos/${idProdutoEditando}`,
+             {
             method: "PUT",
             headers: {
                 "Content-Type": "application/json",

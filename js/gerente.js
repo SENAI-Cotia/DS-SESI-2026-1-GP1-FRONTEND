@@ -28,7 +28,7 @@ fetch("http://localhost:3000/gerentes" , {
     data.forEach(function(gerente) {
         const linha = document.createElement("tr")
         linha.innerHTML = `
-            <td>${gerente.imagem}</td>
+            <td><img src="${gerente.imagem}" alt="Foto do Gerente" style="border-radius: 150px"></td>
             <td>${gerente.nome}</td>
             <td>${gerente.email}</td>
             <td class ="ultima-coluna"> 

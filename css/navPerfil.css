@@ -20,7 +20,7 @@
 }
 
 .nav-icons  {
-    width: 45%;
+    width: 40%;
     display: block;
 }
 
@@ -37,4 +37,8 @@ hr {
     background-color: rgb(112, 112, 112);
     width: 19%;
     height: 0.1%;
+}
+
+#nav-nome{
+    top:-45%;
 }

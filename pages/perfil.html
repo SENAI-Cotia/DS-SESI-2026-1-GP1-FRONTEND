@@ -40,11 +40,11 @@
     </nav>
 
     <div class="perfil">
-        <img class="foto-perfil" id="foto-perfil">
+        <img class="foto-perfil" id="fotoperfil">
 
-        <div class="msg-ola">
-            <h1>Olá <span id="nome-perfil"></span></h1>
-            <p>Seja bem vindo(a)!</p>
+        <div class="msg-ola" >
+            <h1>Olá <span id="nomePerfil"></span>, seja bem vindo(a)!</h1>
+            
         </div>
 
         <div class="btn-personalizar-foto">
@@ -83,8 +83,8 @@
         <p class="gerentes-title"> <a href="gerentes.html">Seus gerentes</a></p>
         <ul>
             <li>
-                <div> <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
-                        Ana Previatto
+                <div> <img id="ft-perfil-gerente">
+                        <span id="nome-gerente"></span>
                 </div>
                 <div>  
                     <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
@@ -93,8 +93,8 @@
             </li>
 
             <li> 
-                <div> <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
-                        Lavinia Bispo
+                <div> <img id="ft-perfil-gerente" >
+                        <span id="nome-gerente"></span> 
                 </div>
                 <div> 
                     <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
@@ -104,8 +104,8 @@
 
             <li> 
                 <div>
-                    <img src="../assets/images/fotoPerfil.jpg" alt="foto-gerente" class="foto-gerente">
-                    Carolina A.
+                    <img id="ft-perfil-gerente">
+                    <span id="nome-gerente"></span>
                 </div>
                 <div>
                     <img src="../assets/icons/lixo-icon.svg" alt="lixo-icon" class="icons-gerente-1">
@@ -117,9 +117,9 @@
 
 
     <div class="btn-container">
-        <button class="btn-adicionar">
-            <img src="../assets/icons/mais-icon.svg" alt="mais-icon" class="btn-icon-1">
-            <p>Adicionar gerentes</p>
+        <button class="btn-adicionar" id="addGerentes">
+            <img src="../assets/icons/mais-icon.svg" alt="mais-icon"  class="btn-icon-1">
+            <p><a href="cadastroADM.html">Adicionar gerentes</a></p>
         </button>
 
         <button class="btn-sair" onclick="sair()">
@@ -127,6 +127,8 @@
             <p>Sair da conta</p>
         </button>
     </div>
+
+    
     <script src="../js/perfil.js"></script>
     <br><br><br>
 </body>

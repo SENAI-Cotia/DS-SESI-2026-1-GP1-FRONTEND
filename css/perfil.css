@@ -8,11 +8,10 @@
 
 .foto-perfil {
     position: absolute;
-    top: 10%;
-    left: 32%;
-
-    width: 190px;
-    height: auto;
+    top: 11%;
+    left: 30%;
+    height: 200px;
+    width: auto;
     border-radius: 100%;
 }
 
@@ -256,18 +255,21 @@
     height: 60px;
 
     background-color: #047a66;
-    color: #fff;
+    
     border: none;
     border-radius: 30px;
     cursor: pointer;
+    
 }
 
 
-.btn-adicionar p {
+.btn-adicionar p a {
     font-family: 'Farro';
     position: absolute;
     top: 37%;
     left: 25%;
+    color: #fff;
+    text-decoration: none;
 }
 
 .btn-icon-1 {

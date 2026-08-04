@@ -1,35 +1,34 @@
-
-document.getElementById("nav-nome").textContent = user.nome
+const user = JSON.parse(sessionStorage.getItem("user"));
 const token = sessionStorage.getItem("token")
+document.getElementById("nav-nome").textContent = user.nome
 
 
 document.getElementById("container-label-cadastro").addEventListener('submit', async (e) => {
     e.preventDefault()
 
-    const novoProduto = {
+    const novoPerfil = {
         nome: document.getElementById("nome").value,
-        categoria: document.getElementById("categoria").value,
-        preco: document.getElementById("venda").value,
-        descricao: document.getElementById("descricao").value,
-        codigo_barra: document.getElementById("codigo").value,
-        estoque: document.getElementById("estoque").value,
+        email: document.getElementById("email").value,
+        senha: document.getElementById("senha").value,
+        role: document.getElementById("roles").value,
+        filial: document.getElementById("filial").value,
         imagem: document.getElementById("url").value
     }
 
-    fetch("http://localhost:3000/cadastro/produtos", {
+    fetch("http://localhost:3000/cadastro/gerentes", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
             'Authorization' : 'Bearer ' + token
         },
-        body: JSON.stringify(novoProduto)
+        body: JSON.stringify(novoPerfil)
         
     }).then((response) => {
         if(!response.ok){
-            alert("Ocorreu um erro ao cadastrar o produto!")
+            alert("Ocorreu um erro ao cadastrar o gerente!")
         } else {
-            alert("Produto cadastrado com sucesso!")
-            window.location.href = 'produtos.html'
+            alert("gerente cadastrado com sucesso!")
+            window.location.href = 'gerentes.html'
             e.target.reset()
         }
     })
@@ -40,4 +39,4 @@ function sair(){
     sessionStorage.removeItem("user") //remove o user
 
     window.location.href = "login.html"
-    }
+}

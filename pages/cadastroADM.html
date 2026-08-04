@@ -44,7 +44,7 @@
                     <img src="/assets/icons/icone-user-verde.svg" alt="usuario">
                 </a>
 
-                <p>Ronaldo blá blá</p>
+                <p id="nav-nome"></p>
                 
 
                 <div>
@@ -54,8 +54,61 @@
             </div>
             <hr>
         </section>
+        <section class="container-cadastro">
+            <a href="../pages/gerentes.html"><img src="../assets/icons/voltar.svg" alt=""></a>
+            <div class="cadastro-title">
+                    <h1>Cadastro de usuários</h1>
+                    <p>Insira as informações do gerente abaixo!</p>
+            </div>
+
+            <form id="container-label-cadastro">
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="codigo">Nome:</label><br>
+                        <input type="text" id="nome">
+                    </div>
+
+                    <div>
+                        <label for="nome">Email:</label><br>
+                        <input type="text" id="email">
+                    </div>
+                </div>
+
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="categoria">Função(role):</label><br>
+                        <select name="funçoes" id="roles">
+                            <option value="admin">Adiministrador</option>
+                            <option value="gerente">Gerente</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="filial">Filial:</label><br>
+                        <input type="number" id="filial" min="0" max="3">
+                    </div>
+                </div>
+
+                <div class="linha-cadastro">
+                    <div>
+                        <label for="url">URL da imagem de perfil:</label><br>
+                        <input type="text" id="url">
+                    </div>
+
+                    <div>
+                        <label for="senha">Crie a senha do usuário:</label><br>
+                        <input type="password" id="senha">
+                    </div>
+                </div>
+
+            
+            <div class="btn-add-produto">
+                <button type="submit">Adicionar Perfil</button>
+            </div>
+         </form>
+        </section>
     </main>
-    
+    <script src="../js/cadastroADM.js"></script>
   
 </body>
 </html>

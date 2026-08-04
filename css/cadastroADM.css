@@ -67,9 +67,8 @@ body {
 .navPerfil p {
     color:var(--verde2);
     margin-left: 12px;
-    flex: 1;
-    font-size: larger;
-    transform: translateY(16px);
+    font-size: 20px;
+    margin-top: 15px;
 }
 
 .icons {
@@ -79,11 +78,6 @@ body {
     font-size: large;
 }
 
-.navPerfil img {
-    width: 66px;
-    height: 38px;
-    transform: translateY(8px);
-}
 
 hr {
     width: 100%;
@@ -178,4 +172,16 @@ label {
     width: 101%;
     transform: translateX(-562px);
     transform: translateY(197px);
+}
+
+#roles{
+    border: 0.5px solid rgba(0, 0, 0, 0.28);
+    border-radius: 11px;
+    height: 30px;
+    width: 300px;
+    padding-left: 15px;
+    margin-bottom: 15px;
+
+    font-family: "Farro", sans-serif;
+    
 }

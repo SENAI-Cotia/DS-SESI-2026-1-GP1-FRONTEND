@@ -1,4 +1,4 @@
-
+const user = JSON.parse(sessionStorage.getItem("user"))
 document.getElementById("nav-nome").textContent = user.nome
 const token = sessionStorage.getItem("token")
 

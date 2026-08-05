@@ -1,3 +1,5 @@
+const user = JSON.parse(sessionStorage.getItem("user"))
+
 
 const token = sessionStorage.getItem('token')
 // Mostra todos os produtos da API
@@ -37,7 +39,7 @@ fetch("http://localhost:3000/produtos", {
         lista.appendChild(produtoItem)
     })
 })
-const user = JSON.parse(sessionStorage.getItem("user"))
+
 
 
 document.getElementById("nav-nome").textContent = user.nome
@@ -170,3 +172,4 @@ function sair(){
     sessionStorage.removeItem("user")
     window.location.href = "login.html"
 }
+
